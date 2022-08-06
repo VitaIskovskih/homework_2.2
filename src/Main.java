@@ -6,10 +6,10 @@ public class Main {
         int bonus = 0;//Бонусы начисленные клиенту
 
         if (refill >= bonusAmount) {
-            bonus = refill/100;//Бонусы начисленные клиенту
+            bonus = refill / 100;//Бонусы начисленные клиенту
         }
 
-        int balanceFinal = balanceInitial + refill + bonus;//Итоговая сумма боланса после пополнения
+        int balanceFinal = balanceInitial + refill + bonus;//Итоговая сумма баланса после пополнения
 
         System.out.println("Итоговая сумма:");
         System.out.println(balanceFinal + "рублей");
